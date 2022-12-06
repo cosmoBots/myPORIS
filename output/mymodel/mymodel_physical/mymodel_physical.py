@@ -1,6 +1,6 @@
-from examplePORIS import *
+from mymodelPORIS import *
 
-class example_physical(examplePORIS):
+class mymodel_physical(mymodelPORIS):
     dummy = "You should override the action triggers here"
     # Go to ARCGengIIIPORIS.py, navigate to the ##### Action triggers ##### section
     # which is normally at the bottom of the class, and copy here the methods 
@@ -8,7 +8,7 @@ class example_physical(examplePORIS):
     # Once this class has any content, remove the dummy attribute
 
 
-thismodel = example_physical()
+thismodel = mymodel_physical()
 
 print("Let's test our model ",thismodel.root.name)
 print("Current mode is ",thismodel.root.selectedMode.name)
