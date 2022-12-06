@@ -1,5 +1,6 @@
-# pyPORIS_user
-An example of how to use pyPORIS to model your own instruments
+# myPORIS
+
+A framework to develop my own PORIS models
 
 The purpose of this repo is provide an starting point to fork, so every user can have her/his own modeling environment with her/his own models under control system.
 The repo uses the pyPORIS toolchain (https://github.com/cosmoBots/pyPORIS) which is obtained as a submodule.
